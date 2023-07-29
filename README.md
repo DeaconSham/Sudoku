@@ -1,4 +1,8 @@
-Java text-based Sudoku game and solver implementing backtracking algorithms. 
+## Description
+
+
+Java text-based Sudoku game and solver implementing backtracking algorithms. This project was created for the class ICS3U as a final project.
+
 ## Folder Structure
 
 The workspace contains two folders by default, where:
