@@ -20,15 +20,11 @@ You will need to have a Java Development Kit (JDK) installed to compile and run 
 
 ### Installation & Running
 
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/DeaconSham/Sudoku.git
-    ```
-2.  **Compile the Java source code:**
+1.  **Compile the Java source code:**
     ```sh
     javac *.java
     ```
-3.  **Run the application:**
+2.  **Run the application:**
     ```sh
     java Main
     ```
