@@ -24,15 +24,11 @@ You will need to have a Java Development Kit (JDK) installed to compile and run 
     ```sh
     git clone https://github.com/DeaconSham/Sudoku-Solver-Game.git
     ```
-2.  **Navigate to the source directory:**
-    ```sh
-    cd Sudoku-Solver-Game/src
-    ```
-3.  **Compile the Java source code:**
+2.  **Compile the Java source code:**
     ```sh
     javac *.java
     ```
-4.  **Run the application:**
+3.  **Run the application:**
     ```sh
     java Main
     ```
@@ -49,8 +45,6 @@ When you run the application, you will be presented with a main menu:
 During the game, you can enter coordinates (row and column) and the desired number. Once you believe you have solved the puzzle, you can finish the game, and the program will check your solution against the correct one.
 
 ## File Structure
-
-The `src` folder contains all the Java source files:
 
 *   **`Main.java`**: The entry point of the application. It handles the main menu, user input, and calls methods for the game and solver logic.
 *   **`Sudoku.java`**: Responsible for generating a new Sudoku puzzle. It starts by creating a full, valid board and then removes a specified number of digits.
