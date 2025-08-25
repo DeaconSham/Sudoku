@@ -22,7 +22,7 @@ You will need to have a Java Development Kit (JDK) installed to compile and run 
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/DeaconSham/Sudoku-Solver-Game.git
+    git clone https://github.com/DeaconSham/Sudoku.git
     ```
 2.  **Compile the Java source code:**
     ```sh
