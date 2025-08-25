@@ -1,7 +1,6 @@
 ## Description
 
-
-Java text-based Sudoku game and solver implementing backtracking algorithms. This project was created for the class ICS3U as a final project.
+Java text-based Sudoku game and solver implementing backtracking algorithms.
 
 ## Folder Structure
 
@@ -12,11 +11,10 @@ The workspace contains two folders by default, where:
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-
 ## Explanation of program
 
 
-- `Main.java` class:
+### `Main.java` class:
 
 `main` method: This is the entry point of the program. It displays a menu to the user and based on the user`s input, it either starts the game, invokes the solver, displays rules and information, or exits the program.
 
@@ -38,7 +36,7 @@ It generates a Sudoku board using the `Sudoku` class, fills it with values, and 
 `checkSolution` method: This method checks if the user`s Sudoku board matches the solution. It takes two two-dimensional arrays representing the user`s board and the solution as input. It compares each cell of the two boards and returns `false` if and the cell does not match. If all cells match, it returns `true`.
 
 
-- `Solver.java` class:
+### `Solver.java` class:
 
 `numberInRow`, `numberInCol`, `numberInBox` methods: These methods determine whether a given number already exists in a particular row, column, or each 3*3 box. They return a boolean value, which is `true` if the number already exists and `false` if it does not.
 
@@ -47,7 +45,7 @@ It generates a Sudoku board using the `Sudoku` class, fills it with values, and 
 `solveBoard` method: This method implements a backtracking algorithm to solve the Sudoku puzzle. It starts by iterating through every cell of the board. If the cell is empty (for example, it contains a 0), the method attempts to place each number from 1 to 9 in the cell and recursively calls itself to solve the puzzle with the new number in place. If the recursive call returns `true`, the puzzle is solved, and the method returns `true`. Otherwise, the number is removed from the cell, and the following number is tried. If all numbers from 1 to 9 have been tried and none lead to a solution, the method returns `false`, indicating that the puzzle is unsolvable.
 
 
-- `Sudoku.java` class:
+### `Sudoku.java` class:
 
 `Sudoku` method: This is the constructor of the class. Based on the provided arguments, it initializes the gridSize, k, and boxSize variables. It also creates a 2D array called a grid to represent the Sudoku grid.
 
